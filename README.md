@@ -13,3 +13,4 @@ This repository aims to learn C# language and improving skills with the course b
 - [Module 5 - Building Entity Classes - Methods](module_05/ACM)
 - [Module 6 - Separation of Responsibilities](module_06/ACM)
 - [Module 7 - Establishing Relationships](module_07/ACM)
+- [Module 8 - Leveraging Reuse through Inheritance](module_08/ACM)
