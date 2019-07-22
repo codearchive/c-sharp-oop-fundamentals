@@ -1,6 +1,6 @@
 ﻿namespace ACM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         public Product()
         {
