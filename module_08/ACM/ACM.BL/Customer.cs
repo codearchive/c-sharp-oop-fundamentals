@@ -52,6 +52,8 @@ namespace ACM.BL
             }
         }
 
+        public override string ToString() => FullName;
+
         public static int InstanceCount { get; set; }
 
         /// <summary>
