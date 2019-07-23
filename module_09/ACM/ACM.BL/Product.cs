@@ -21,7 +21,7 @@ namespace ACM.BL
         private string _productName;
         public string ProductName
         {
-            get => StringHandler.InsertSpaces(_productName);
+            get => _productName.InsertSpaces();
             set => _productName = value;
         }
          
