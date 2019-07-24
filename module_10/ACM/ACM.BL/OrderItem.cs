@@ -1,6 +1,6 @@
 ﻿namespace ACM.BL
 {
-    public class OrderItem : EntityBase
+    public class OrderItem
     {
         public OrderItem()
         {
@@ -21,7 +21,7 @@
         /// Validates the order item data.
         /// </summary>
         /// <returns></returns>
-        public override bool Validate()
+        public bool Validate()
         {
             var isValid = true;
 
