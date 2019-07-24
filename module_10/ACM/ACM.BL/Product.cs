@@ -2,7 +2,7 @@
 
 namespace ACM.BL
 {
-    public class Product : EntityBase
+    public class Product : EntityBase, ILoggable
     {
         public Product()
         {
@@ -15,7 +15,7 @@ namespace ACM.BL
         }
 
         public decimal? CurrentPrice { get; set; }
-        public string Description { get; set; }
+        public string ProductDescription { get; set; }
         public int ProductId { get; private set; }
 
         private string _productName;
@@ -24,7 +24,10 @@ namespace ACM.BL
             get => _productName.InsertSpaces();
             set => _productName = value;
         }
-         
+
+        public string Log() => $"{ProductId}: {ProductName} Detail: {ProductDescription} Status: {EntityState.ToString()}";
+
+
         public override string ToString() => ProductName;
 
         /// <summary>
