@@ -15,3 +15,4 @@ This repository aims to learn C# language and improving skills with the course b
 - [Module 7 - Establishing Relationships](module_07/ACM)
 - [Module 8 - Leveraging Reuse through Inheritance](module_08/ACM)
 - [Module 9 - Building Reusable Components](module_09/ACM)
+- [Module 10 - Understanding Interfaces](module_10/ACM)
